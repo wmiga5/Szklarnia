@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\",
+  "WorkspaceRootPath": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|c:\\users\\jakub\\desktop\\szklarnia\\greenhouse\\chartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|c:\\users\\wojte\\documents\\github\\smart_szklarnia\\smart-greenhouse\\apka\\szklarnia\\greenhouse\\chartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|solutionrelative:chartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\chartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\chartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|solutionrelative:chartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|c:\\users\\wojte\\documents\\github\\smart_szklarnia\\smart-greenhouse\\apka\\szklarnia\\greenhouse\\all_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|solutionrelative:all_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112D378E-BAEB-459E-8247-21E3FE0D01AF}|GreenHouse.csproj|solutionrelative:record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 243,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,17 +46,34 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:427032125:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "All_data.cs",
+              "DocumentMoniker": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\All_data.cs",
+              "RelativeDocumentMoniker": "All_data.cs",
+              "ToolTip": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\All_data.cs",
+              "RelativeToolTip": "All_data.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T15:35:45.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Record.cs",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\Record.cs",
+              "DocumentMoniker": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\Record.cs",
               "RelativeDocumentMoniker": "Record.cs",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\Record.cs",
+              "ToolTip": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\Record.cs",
               "RelativeToolTip": "Record.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T10:08:13.407Z",
               "EditorCaption": ""
@@ -60,52 +81,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChartForm.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\ChartForm.cs",
+              "Title": "ChartForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\ChartForm.cs",
               "RelativeDocumentMoniker": "ChartForm.cs",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\ChartForm.cs [Projekt]",
-              "RelativeToolTip": "ChartForm.cs [Projekt]",
+              "ToolTip": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\ChartForm.cs [Design]",
+              "RelativeToolTip": "ChartForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T09:23:32.201Z",
-              "EditorCaption": " [Projekt]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ChartForm.cs",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\ChartForm.cs",
+              "DocumentMoniker": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\ChartForm.cs",
               "RelativeDocumentMoniker": "ChartForm.cs",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\ChartForm.cs",
+              "ToolTip": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\ChartForm.cs",
               "RelativeToolTip": "ChartForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAANAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T09:23:45.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\Form1.cs",
+              "ToolTip": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T09:16:17.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\Form1.cs",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\Form1.cs [Projekt]",
-              "RelativeToolTip": "Form1.cs [Projekt]",
+              "ToolTip": "C:\\Users\\wojte\\Documents\\GitHub\\Smart_szklarnia\\Smart-Greenhouse\\Apka\\Szklarnia\\GreenHouse\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T09:15:51.066Z",
-              "EditorCaption": " [Projekt]"
+              "EditorCaption": " [Design]"
             }
           ]
         }

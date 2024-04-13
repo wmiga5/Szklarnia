@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
-
+using MySql.Data.MySqlClient;
 namespace GreenHouse
 {
     public partial class ChartForm : Form
@@ -21,8 +21,10 @@ namespace GreenHouse
             InitializeComponent();
             InitializeComboBox();
             allData = new All_data();
-            List<Record> weatherData = WeatherDataGenerator.GenerateWeatherData(30);
-            WeatherDataGenerator.AddWeatherDataToAllData(allData, weatherData);
+
+
+           
+
         }
 
         private void InitializeComboBox()
@@ -40,6 +42,24 @@ namespace GreenHouse
         {
             string selectedParameter = comboBoxParameters.SelectedItem?.ToString();
             string selectedTimeFrame = comboBoxTimeFrame.SelectedItem?.ToString();
+
+
+
+            string mysqlconn = "server=127.0.0.1;user=root;database=szklarnia_v2;password=";
+            MySqlConnection mySqlConnection = new MySqlConnection(mysqlconn);
+
+            mySqlConnection.Open();
+
+            MySqlCommand cmd = new MySqlCommand("select * from szklarnia_1", mySqlConnection);
+
+            MySqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                allData.Add(new Record(reader.GetInt32(0), reader.GetDouble(1), reader.GetDouble(2), reader.GetDateTime(3)));
+            }
+
+            mySqlConnection.Close();
 
             if (selectedParameter != null && selectedTimeFrame != null)
             {
@@ -64,7 +84,7 @@ namespace GreenHouse
         {
             Dictionary<DateTime, double> data = new Dictionary<DateTime, double>();
             List<Record> selectedRecords = GetSelectedRecords(parameter, timeFrame);
-            foreach (Record record in selectedRecords) 
+            foreach (Record record in selectedRecords)
             {
                 double value = 0;
                 switch (parameter)
@@ -73,7 +93,7 @@ namespace GreenHouse
                         value = record.temperature;
                         break;
                     case "Humidity":
-                        value = record.temperature; // Załóżmy, że mamy pole humidity w rekordzie
+                        value = record.humidity; // Załóżmy, że mamy pole humidity w rekordzie
                         break;
                     case "Insolation":
                         value = record.temperature; // Załóżmy, że mamy pole insolation w rekordzie
@@ -95,17 +115,17 @@ namespace GreenHouse
             switch (timeFrame)
             {
                 case "Today":
-                    
+
                     selectedRecords = allRecords.Where(record => record.date_time.Date == DateTime.Today.Date).ToList();
                     break;
                 case "Last Week":
-                    
+
                     DateTime lastWeekStart = DateTime.Today.AddDays(-6).Date;
                     DateTime lastWeekEnd = DateTime.Today.Date;
                     selectedRecords = allRecords.Where(record => record.date_time.Date >= lastWeekStart && record.date_time.Date <= lastWeekEnd).ToList();
                     break;
                 case "Last Month":
-                    
+
                     DateTime lastMonthStart = DateTime.Today.AddMonths(-1).Date;
                     DateTime lastMonthEnd = DateTime.Today.Date;
                     selectedRecords = allRecords.Where(record => record.date_time.Date >= lastMonthStart && record.date_time.Date <= lastMonthEnd).ToList();
@@ -122,11 +142,11 @@ namespace GreenHouse
 
         private void DrawChart(Dictionary<DateTime, double> data)
         {
-            
+
             chart1.Series.Clear();
             chart1.ChartAreas.Clear();
 
-            
+
             ChartArea chartArea = new ChartArea();
             chart1.ChartAreas.Add(chartArea);
 
@@ -138,13 +158,13 @@ namespace GreenHouse
             // Oblicz szerokość słupków na podstawie ilości danych
             double barWidth = 0.8;
 
-            
+
             foreach (var entry in data)
             {
                 series.Points.AddXY(entry.Key, entry.Value);
             }
 
-            
+
             series["PixelPointWidth"] = barWidth.ToString();
         }
 
@@ -153,46 +173,7 @@ namespace GreenHouse
     /// <summary>
     /// /////////////////////////////////////////////////////////////////////////////////////////////Klasa tymczasowoa do generowania danych
     /// </summary>
-    public static class WeatherDataGenerator
-    {
-        private static Random random = new Random();
+    /// 
 
-        public static List<Record> GenerateWeatherData(int days)
-        {
-            List<Record> weatherData = new List<Record>();
-
-            // Generowanie danych dla każdego dnia
-            for (int i = 0; i < days; i++)
-            {
-                double temperature = GenerateRandomTemperature(); // Zainicjuj temperaturę początkową
-                for (int j = 0; j < 2; j++) 
-                {
-                    double temperatureChange = random.NextDouble() * 4 - 2;
-                    temperature += temperatureChange;
-
-                    // Tworzenie rekordu dla danego dnia i godziny
-                    DateTime date = DateTime.Today.AddDays(-days + i + 1).AddHours(j); // Ustawiamy datę wstecz o odpowiednią liczbę dni
-                    Record record = new Record(i + 1, temperature, date);
-
-                    // Dodawanie rekordu do listy danych
-                    weatherData.Add(record);
-                }
-            }
-
-            return weatherData;
-        }
-        private static double GenerateRandomTemperature()
-        {
-            // Tutaj możesz ustawić temperaturę początkową na jakąś losową wartość lub określić jej zakres
-            return random.Next(18, 25); // Losowa temperatura początkowa w zakresie od 18 do 25 stopni
-        }
-        public static void AddWeatherDataToAllData(All_data allData, List<Record> weatherData)
-        {
-            foreach (var record in weatherData)
-            {
-                allData.Add(record);
-            }
-        }
-    }
 
 }

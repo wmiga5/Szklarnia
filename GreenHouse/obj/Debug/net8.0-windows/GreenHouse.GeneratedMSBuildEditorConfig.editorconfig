@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GreenHouse
-build_property.ProjectDir = C:\Users\jakub\Desktop\Szklarnia\GreenHouse\
+build_property.ProjectDir = C:\Users\wojte\Documents\GitHub\Smart_szklarnia\Smart-Greenhouse\Apka\Szklarnia\GreenHouse\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

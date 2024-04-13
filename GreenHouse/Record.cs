@@ -10,13 +10,16 @@ namespace GreenHouse
     {
         public int id { get; set; }
         public double temperature { get; set; }
+        
+        public double humidity { get; set; }
         public DateTime date_time { get; set; }
 
-        public Record() { id = 0; temperature = 0; date_time = new DateTime(); }
-        public Record(int id, double temperature, DateTime date_time)
+        public Record() { id = 0; temperature = 0; humidity = 0; date_time = new DateTime(); }
+        public Record(int id, double temperature, double humidity, DateTime date_time)
         {
             this.id = id;
             this.temperature = temperature;
+            this.humidity = humidity;
             this.date_time = date_time;
         }
 
