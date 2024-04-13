@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z3I6FzIUr1dnvgR5V+o5aPvgfkio5Edax6oDHMJxESoO/+fICixG5ifgBP8H0jGXarWB8NAHzgNns9M3pf3NzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jakub\\Desktop\\Szklarnia\\GreenHouse\\GreenHouse.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
+  ],
+  "logs": []
+}
